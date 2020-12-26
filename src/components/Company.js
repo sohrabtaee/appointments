@@ -17,11 +17,7 @@ const Company = ({ company, allBlockedSlots, onBlockSlots }) => {
     }
   }
 
-  useEffect(() => {
-    if (selectedSlots.length) {
-      onBlockSlots(company.id, selectedSlots)
-    }
-  }, [selectedSlots])
+  useEffect(() => onBlockSlots(company.id, selectedSlots), [selectedSlots])
 
   useEffect(() => {
     const slots = []
