@@ -3,7 +3,7 @@
 1. Create a React application to fetch ​time_slots​ ​​for ​companies.​​ The attached JSON file represents data of:
 
 - 3 ​companies
-- each ​​company​​ ​contains ​id,​ ​​ ​name​, ​t​ ​ype​ ​​and ​​​time_slots
+- each ​​company​​ ​contains ​id,​ ​​ ​name​, ​t​ype​ ​​and ​​​time_slots
 - each ​time_slot​ ​​contains a ​s​tart_time​​ ​and ​end_time
 - start_time​ ​​and ​end_time​ ​​are represented in https://en.wikipedia.org/wiki/ISO_8601
 
